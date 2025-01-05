@@ -1,6 +1,6 @@
 const Header:React.FC=()=>{
     return(
-        <div className="bg-[#CDB8A2] px-12 py-4 flex justify-center fixed w-full">
+        <div className="bg-[#CDB8A2] px-12 py-6 flex justify-center fixed z-10 w-full">
             <div className="flex gap-12 Sacramento-regular">
                 <div className="text-[#352521] text-[25px] cursor-pointer">Home</div>
                 <div className="text-[#352521] text-[25px] cursor-pointer">Frames</div>

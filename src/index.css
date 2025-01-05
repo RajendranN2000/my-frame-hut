@@ -3,32 +3,59 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Sacramento';
-  src: url('/styles/fonts/Sacramento-Regular.ttf') format('truetype');
+  font-family: "Sacramento";
+  src: url("/styles/fonts/Sacramento-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'Style Script';
-  src: url('/styles/fonts/StyleScript-Regular.ttf') format('truetype');
+  font-family: "Style Script";
+  src: url("/styles/fonts/StyleScript-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: 'STIXTwoText';
-  src: url('/styles/fonts/STIXTwoText-VariableFont_wght.ttf') format('truetype');
+  font-family: "STIXTwoText";
+  src: url("/styles/fonts/STIXTwoText-VariableFont_wght.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "roboto";
+  src: url("/styles/fonts/Roboto-Regular.ttf") format("truetype");
+}
 .Sacramento-regular {
-  font-family: 'Sacramento';
+  font-family: "Sacramento";
   font-weight: 400;
 }
 .stylescript-regular {
-  font-family: 'Style Script';
+  font-family: "Style Script";
   font-weight: 400;
 }
 .STIXTwoText-regular {
-  font-family: 'STIXTwoText';
+  font-family: "STIXTwoText";
   font-weight: 400;
 }
-.top-banner-bg{
-  background-image: url('/images/banner-bg.png');
+.roboto-regular {
+  font-family: "roboto";
+  font-weight: 500;
+}
+.roboto-bold {
+  font-family: "roboto";
+  font-weight: 700;
+}
+.top-banner-bg {
+  background-image: url("/images/banner-bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+.frame-bg {
+  background-image: url("/images/frame-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gift-section-bg {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gift-box-shadow {
+  box-shadow: inset 0 2px 4px rgba(171, 159, 135, 1);
+}
+.gift-btn-shadow{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25)
 }
