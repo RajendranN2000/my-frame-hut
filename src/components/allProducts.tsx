@@ -54,8 +54,8 @@ const AllProducts: React.FC = () => {
       }
   }
   return (
-    <div className="bg-[#D2C8B9] py-20 flex flex-col items-center " id="product-card">
-      <div className="roboto font-bold text-center text-[#736D55] text-[60px]" >
+    <div className="bg-[#D2C8B9] py-16 flex flex-col items-center " id="product-card">
+      <div className="roboto font-bold text-center text-[#736D55] text-[36px]" >
         "Explore Our Exclusive Collection of Custom <br /> Photo Products"
       </div>
       <div className="relative mt-10" >
@@ -65,7 +65,7 @@ const AllProducts: React.FC = () => {
               return (
                 <div className="w-[400px] h-[400px] relative">
                   <img className="h-full w-full" src={each.img} alt="" />
-                  <div className="absolute bottom-0 bg-[#D9D9D9] w-full text-center py-5 roboto-regular">
+                  <div className="absolute bottom-0 bg-[#D9D9D9] w-full text-center py-5 roboto-regular text-sm">
                     {each.name}
                   </div>
                 </div>

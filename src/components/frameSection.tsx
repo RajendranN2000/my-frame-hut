@@ -3,7 +3,7 @@ import React from "react";
 const FrameSection: React.FC = () => {
   return (
     <div className="frame-bg flex flex-col items-center">
-      <div className="roboto-bold text-[#C28B00] text-[44px] max-w-[70%] text-center pt-20">
+      <div className="roboto-bold text-[#C28B00] text-[36px] max-w-[70%] text-center pt-20">
         "Find the Right Size & Price for Your <br /> Perfect Frame"
       </div>
       <div className="flex gap-8 mt-12 mb-16 items-center">
