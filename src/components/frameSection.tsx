@@ -6,7 +6,7 @@ const FrameSection: React.FC = () => {
       <div className="roboto-bold text-[#C28B00] text-[36px] max-w-[70%] text-center pt-20">
         "Find the Right Size & Price for Your <br /> Perfect Frame"
       </div>
-      <div className="flex gap-8 mt-12 mb-16 items-center">
+      <div className="flex gap-8 mt-8 mb-16 items-center">
       <div className="bg-[#CDB8A2] h-[380px] w-[250px]">
           <div className="bg-[#E4DACE] text-center py-4 mt-6 roboto-bold text-[#111111]">
           A5: ₹299

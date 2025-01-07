@@ -5,7 +5,7 @@ const BannerSection: React.FC = () => {
     <div className="top-banner-bg flex min-h-[100vh] items-center">
       <div className="w-[40%] pl-20 flex flex-col items-center">
         <div className="text-[#352521] text-center text-[36px] stylescript-regular">
-          Preserve Every Moment in Style With
+          Preserve Every Moment in Style <br></br> With
         </div>
         <img className="h-20 w-auto" src="/images/frame-hut.png" alt="" />
         <div className="text-[#352521] text-sm STIXTwoText-regular text-center pt-6">
