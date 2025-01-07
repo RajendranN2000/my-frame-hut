@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const GiftSection: React.FC = () => {
+  const route = useNavigate()
+  function routeToDetail(){
+    route('/detail')
+  }
   return (
     <div className="bg-[#736D55] relative h-[700px]">
         <img className="h-full opacity-25 " src="/images/gift-star-bg.png" alt="" />
@@ -16,7 +21,11 @@ const GiftSection: React.FC = () => {
             Customized Gifts <br></br> Available
           </div>
           <div className="flex justify-center mt-4">
-            <div className="bg-gradient-to-r cursor-pointer from-[#D0A348] rounded-full to-[#FBEA8E] py-2 px-8 text-[#FFFFFF] STIXTwoText-regular text-[20px] gift-btn-shadow">
+            <div className="bg-gradient-to-r cursor-pointer from-[#D0A348] rounded-full to-[#FBEA8E] py-2 px-8 text-[#FFFFFF] STIXTwoText-regular text-[20px] gift-btn-shadow"
+            onClick={()=>{
+              routeToDetail()
+            }}
+            >
               View All
             </div>
           </div>
